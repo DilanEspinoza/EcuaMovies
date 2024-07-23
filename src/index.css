@@ -13,3 +13,64 @@ h1 {
 	color: yellow;
 	margin-top: 30px;
 }
+
+form {
+	width: 80%;
+	padding: 10px;
+	margin: 20px auto;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+input,
+button {
+	border-radius: 5px;
+	border: none;
+	padding: 15px;
+}
+
+input {
+	background-color: #161616;
+	color: white;
+	outline: none;
+	width: 50%;
+}
+
+button {
+	cursor: pointer;
+	background-color: rgb(94, 162, 185);
+}
+
+p {
+	color: white;
+	text-align: center;
+}
+
+main {
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+}
+
+img {
+	width: 200px;
+}
+
+article {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
+	width: 250px;
+	margin: 10px;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+}
